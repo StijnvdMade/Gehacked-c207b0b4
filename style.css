@@ -1,0 +1,17 @@
+.top-bar {
+    background-color: gray;
+    height: 80px;
+    width: 100%;
+    margin-top: -7px;
+    display: flex;
+}
+
+.bit-logo {
+    height: 70px;
+    margin-right: 60%;
+}
+
+.top-bar vr {
+    transform: rotate(90deg);
+    height: 100%;
+}
