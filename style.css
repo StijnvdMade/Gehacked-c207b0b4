@@ -1,17 +1,61 @@
 .top-bar {
-    background-color: gray;
     height: 80px;
     width: 100%;
     margin-top: -7px;
+    margin-left: -7px;
+    margin-right: -7px;
     display: flex;
+    outline: 2px solid black;
 }
 
 .bit-logo {
     height: 70px;
-    margin-right: 60%;
+    margin-right: 80%;
 }
 
 .top-bar vr {
     transform: rotate(90deg);
     height: 100%;
+}
+
+.credits {
+    margin-top: 25px;
+}
+
+.left-bar {
+    background-color: rgb(19, 39, 50);
+    width: 80px;
+    height: 100%;
+    position: absolute;
+    margin-left: -8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-content: center;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    margin: 20px;
+    cursor: pointer;
+}
+
+.modules {
+    background-color: rgb(28, 150, 163);
+    height: 300px;
+    margin-left: 2.8%;    
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 6rem;
+    color: white;
+    margin-left: 2%;
 }
